@@ -36,20 +36,25 @@ Apply this method to every subject, and right after we got one subject block rea
 The tidy table is stored in "final_output".
 And in the end, use write.table() to write the file.
 ----------------------------------------------
-1.activity_label: store the CodeBook of the activity list.
-2.features_561: store the names of each column
-3.final_output: store the final tidy table
-4.subject_test: store the subjects of the group:test
-5.subject_train: store the subjects of the group:train
-6.test: read and store the file: X_test.txt
-7.train: read and store the file X_train.txt
-8.test_labels: store the activity code for the group:test
-9.train_labels: store the activity code for the group: train
-10.indices_mean: store the indices of the columns that contain keyword “mean”
-11.indices_std: store the indices of the columns that contain keyword “std”
-12.indices: the concatenation of indices-mean and indices-std
-13.mergedData: the table after merging two tables
-14.extracted_mergedData: the table after extracting the "mean" and "std" columns from the mergedData
-15.old_names: store the names of the orginal table after extracting with some typops
-16.new_names: store the names after correcting all those typos
-17.nsub: store the total number of subjects, namely, 30
+*activity_label: store the CodeBook of the activity list.
+*features_561: store the names of each column
+*final_output: store the final tidy table
+*subject_test: store the subjects of the group:test
+*subject_train: store the subjects of the group:train
+*test: read and store the file: X_test.txt
+*train: read and store the file X_train.txt
+*test_labels: store the activity code for the group:test
+*train_labels: store the activity code for the group: train
+*indices_mean: store the indices of the columns that contain keyword “mean”
+*indices_std: store the indices of the columns that contain keyword “std”
+*indices: the concatenation of indices-mean and indices-std
+*mergedData: the table after merging two tables
+*extracted_mergedData: the table after extracting the "mean" and "std" columns from the mergedData
+*old_names: store the names of the orginal table after extracting with some typops
+*new_names: store the names after correcting all those typos
+*nsub: store the total number of subjects, namely, 30
+
+---------------------------------------------
+Thank you my peers!
+And Good Luck to you!
+Best wishes.
